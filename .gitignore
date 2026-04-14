@@ -1,0 +1,32 @@
+## Visual Studio Build Artifacts
+[Bb]in/
+[Oo]bj/
+[Aa]rm/
+[Aa]rm64/
+[Xx]64/
+[Xx]86/
+
+## Secret Keys (CRITICAL for PowPad)
+.env
+
+## Visual Studio Specific
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+## NuGet Packages
+packages/
+*.nuget.props
+*.nuget.targets
+
+## Specialized Folders
+.library/
+TestResults/
+_ReSharper*/
+
+## OS Generated Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini

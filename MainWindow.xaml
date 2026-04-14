@@ -1,0 +1,26 @@
+﻿<Window x:Class="PowPad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PowPad"
+        Height="65"
+        Width="65"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Topmost="True"
+        ShowInTaskbar="False"
+        ResizeMode="NoResize">
+
+    <Grid>
+        <Border x:Name="MainBorder" 
+            CornerRadius="30" 
+            Background="#7B61FF">
+
+            <TextBlock Text="MEOW"
+                   Foreground="White"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   IsHitTestVisible="False"/>
+        </Border>
+    </Grid>
+</Window>
